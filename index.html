@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="reserva.lo - Sistema de reservas online para pequeños negocios. Sencillo para ti, conveniente para tus clientes.">
+
+  <title>reserva.lo - Reservas simples para tu negocio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo_transparente.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="reserva.lo - Inicio">
+        <img src="images/logo_transparente.png" alt="reserva.lo" width="128" height="64">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" role="navigation" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#features" class="nav__link" data-i18n="nav.features">Funciones</a></li>
+          <li><a href="#how-it-works" class="nav__link" data-i18n="nav.howItWorks">Cómo funciona</a></li>
+          <li><a href="#pricing" class="nav__link" data-i18n="nav.pricing">Precios</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Language Toggle -->
+        <div class="lang-toggle" role="group" aria-label="Seleccionar idioma">
+          <button type="button" class="lang-toggle__btn" data-lang="es" aria-pressed="true">ES</button>
+          <span class="lang-toggle__separator" aria-hidden="true">|</span>
+          <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a href="#cta" class="btn btn--primary btn--sm lg:block hidden" data-i18n="nav.cta">Empezar gratis</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+          <span class="mobile-menu-toggle__icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" class="mobile-menu" role="navigation" aria-label="Menú móvil">
+    <ul class="mobile-menu__list">
+      <li><a href="#features" class="mobile-menu__link" data-i18n="nav.features">Funciones</a></li>
+      <li><a href="#how-it-works" class="mobile-menu__link" data-i18n="nav.howItWorks">Cómo funciona</a></li>
+      <li><a href="#pricing" class="mobile-menu__link" data-i18n="nav.pricing">Precios</a></li>
+    </ul>
+    <div class="mobile-menu__actions">
+      <a href="#cta" class="btn btn--primary" data-i18n="nav.cta">Empezar gratis</a>
+    </div>
+    <div class="mobile-menu__lang">
+      <button type="button" class="lang-toggle__btn" data-lang="es" aria-pressed="true">Español</button>
+      <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero section">
+      <div class="container">
+        <div class="hero__content animate-on-scroll">
+          <span class="hero__label" data-i18n="hero.label">Reservas para pequeños negocios</span>
+
+          <h1 class="hero__title">
+            <span data-i18n="hero.title">Reservas simples.</span><br>
+            <span class="hero__title-accent" data-i18n="hero.titleAccent">Clientes felices.</span>
+          </h1>
+
+          <p class="hero__subtitle" data-i18n="hero.subtitle">
+            El sistema de reservas que tu negocio necesita. Sencillo para ti, conveniente para tus clientes. Sin complicaciones.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#cta" class="btn btn--primary btn--lg" data-i18n="hero.cta.primary">Empezar gratis</a>
+            <a href="#how-it-works" class="btn btn--secondary" data-i18n="hero.cta.secondary">Ver cómo funciona</a>
+          </div>
+
+          <div class="hero__proof">
+            <p class="hero__quote" data-i18n="hero.quote">
+              Desde que usamos reserva.lo, las llamadas para reservar bajaron un 80%. Mis clientes reservan cuando quieren.
+            </p>
+            <p class="hero__author">
+              <strong data-i18n="hero.author">María González</strong> — <span data-i18n="hero.authorRole">Salón de belleza Luna</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container">
+        <header class="section-header animate-on-scroll">
+          <span class="section-header__label" data-i18n="features.label">Funciones</span>
+          <h2 class="section-header__title" data-i18n="features.title">Todo lo que necesitas para gestionar reservas</h2>
+          <p class="section-header__text" data-i18n="features.subtitle">Herramientas diseñadas para pequeños negocios que quieren crecer sin complicarse.</p>
+        </header>
+
+        <div class="features__grid animate-stagger">
+          <!-- Feature 1: 24/7 Bookings -->
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title" data-i18n="features.booking.title">Reservas 24/7</h3>
+            <p class="feature-card__text" data-i18n="features.booking.text">Tus clientes pueden reservar en cualquier momento, desde cualquier dispositivo. Sin llamadas, sin esperas.</p>
+          </article>
+
+          <!-- Feature 2: Automatic Reminders -->
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title" data-i18n="features.reminders.title">Recordatorios automáticos</h3>
+            <p class="feature-card__text" data-i18n="features.reminders.text">Reduce las ausencias hasta un 60% con recordatorios por SMS y email. Tus clientes nunca olvidarán su cita.</p>
+          </article>
+
+          <!-- Feature 3: Your Brand -->
+          <article class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13.5" cy="6.5" r=".5"/>
+                <circle cx="17.5" cy="10.5" r=".5"/>
+                <circle cx="8.5" cy="7.5" r=".5"/>
+                <circle cx="6.5" cy="12.5" r=".5"/>
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.555C21.965 6.012 17.461 2 12 2z"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title" data-i18n="features.brand.title">Tu marca</h3>
+            <p class="feature-card__text" data-i18n="features.brand.text">Personaliza colores, logo y dominio. Tu página de reservas se ve como una extensión natural de tu negocio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works section">
+      <div class="container">
+        <header class="section-header animate-on-scroll">
+          <span class="section-header__label" data-i18n="howItWorks.label">Cómo funciona</span>
+          <h2 class="section-header__title" data-i18n="howItWorks.title">Empieza a recibir reservas en 5 minutos</h2>
+          <p class="section-header__text" data-i18n="howItWorks.subtitle">Configurar tu sistema de reservas es más fácil de lo que imaginas.</p>
+        </header>
+
+        <div class="timeline animate-stagger">
+          <!-- Step 1 -->
+          <div class="timeline__step">
+            <div class="timeline__number" aria-hidden="true">1</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title" data-i18n="howItWorks.step1.title">Configura</h3>
+              <p class="timeline__text" data-i18n="howItWorks.step1.text">Define tus servicios, horarios y disponibilidad. Personaliza tu página.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline__step">
+            <div class="timeline__number" aria-hidden="true">2</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title" data-i18n="howItWorks.step2.title">Comparte</h3>
+              <p class="timeline__text" data-i18n="howItWorks.step2.text">Comparte tu link de reservas en redes, WhatsApp o tu web. Donde tú quieras.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline__step">
+            <div class="timeline__number" aria-hidden="true">3</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title" data-i18n="howItWorks.step3.title">Gestiona</h3>
+              <p class="timeline__text" data-i18n="howItWorks.step3.text">Recibe reservas instantáneamente. Gestiona todo desde un panel simple.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+      <div class="container">
+        <header class="section-header animate-on-scroll">
+          <span class="section-header__label" data-i18n="pricing.label">Precios</span>
+          <h2 class="section-header__title" data-i18n="pricing.title">Planes simples, sin sorpresas</h2>
+          <p class="section-header__text" data-i18n="pricing.subtitle">Elige el plan que mejor se adapte a tu negocio. Cancela cuando quieras.</p>
+        </header>
+
+        <div class="pricing__grid animate-stagger">
+          <!-- Essential Plan -->
+          <article class="pricing-card">
+            <h3 class="pricing-card__name" data-i18n="pricing.essential.name">Esencial</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount" data-i18n="pricing.essential.price">19</span>
+              <span class="pricing-card__period">€<span data-i18n="pricing.essential.period">/mes</span></span>
+            </div>
+            <p class="pricing-card__description" data-i18n="pricing.essential.description">Todo lo básico para empezar a recibir reservas online.</p>
+
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.essential.feature1">Reservas ilimitadas</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.essential.feature2">Página de reservas personalizada</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.essential.feature3">Recordatorios por email</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.essential.feature4">Soporte por email</span>
+              </li>
+            </ul>
+
+            <div class="pricing-card__cta">
+              <a href="#cta" class="btn btn--secondary" style="width: 100%;" data-i18n="pricing.essential.cta">Empezar gratis</a>
+            </div>
+          </article>
+
+          <!-- Professional Plan (Featured) -->
+          <article class="pricing-card pricing-card--featured">
+            <span class="pricing-card__badge" data-i18n="pricing.pro.badge">Recomendado</span>
+            <h3 class="pricing-card__name" data-i18n="pricing.pro.name">Profesional</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount" data-i18n="pricing.pro.price">39</span>
+              <span class="pricing-card__period">€<span data-i18n="pricing.pro.period">/mes</span></span>
+            </div>
+            <p class="pricing-card__description" data-i18n="pricing.pro.description">Para negocios que quieren la experiencia completa.</p>
+
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature1">Todo de Esencial</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature2">Recordatorios por SMS</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature3">Múltiples empleados</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature4">Integración con Google Calendar</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature5">Dominio personalizado</span>
+              </li>
+              <li class="pricing-card__feature">
+                <svg class="pricing-card__feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="pricing.pro.feature6">Soporte prioritario</span>
+              </li>
+            </ul>
+
+            <div class="pricing-card__cta">
+              <a href="#cta" class="btn btn--primary" style="width: 100%;" data-i18n="pricing.pro.cta">Empezar gratis</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="pricing__note animate-on-scroll">
+          <strong data-i18n="pricing.note">14 días gratis. Sin tarjeta de crédito.</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section section">
+      <div class="container">
+        <div class="cta-section__inner animate-on-scroll">
+          <h2 class="cta-section__title" data-i18n="cta.title">Empieza a recibir reservas hoy</h2>
+          <p class="cta-section__text" data-i18n="cta.subtitle">Únete a cientos de negocios que ya simplifican sus reservas con reserva.lo</p>
+          <a href="#" class="btn btn--inverse btn--lg" data-i18n="cta.button">Crear mi cuenta gratis</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <hr class="footer__divider">
+      <div class="footer__inner">
+        <a href="#" class="footer__logo" aria-label="reserva.lo - Inicio">
+          <img src="images/logo_transparente.png" alt="reserva.lo" width="100" height="56">
+        </a>
+
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link" data-i18n="footer.privacy">Privacidad</a></li>
+          <li><a href="#" class="footer__link" data-i18n="footer.terms">Términos</a></li>
+          <li><a href="#" class="footer__link" data-i18n="footer.contact">Contacto</a></li>
+        </ul>
+
+        <p class="footer__copy" data-i18n="footer.copy">© 2025 reserva.lo. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

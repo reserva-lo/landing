@@ -1,0 +1,10 @@
+{
+  "enabledPlugins": {
+    "agents-development-architecture@buildwithclaude": true,
+    "agents-infrastructure-operations@buildwithclaude": true,
+    "agents-data-ai@buildwithclaude": true,
+    "agents-quality-security@buildwithclaude": true,
+    "agents-sales-marketing@buildwithclaude": true,
+    "agents-specialized-domains@buildwithclaude": true
+  }
+}
