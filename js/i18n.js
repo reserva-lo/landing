@@ -9,14 +9,14 @@ const translations = {
     'nav.features': 'Funciones',
     'nav.howItWorks': 'Cómo funciona',
     'nav.pricing': 'Precios',
-    'nav.cta': 'Empezar gratis',
+    'nav.cta': 'Empieza gratis',
 
     // Hero
     'hero.label': 'Reservas para pequeños negocios',
     'hero.title': 'Reservas simples.',
     'hero.titleAccent': 'Clientes felices.',
     'hero.subtitle': 'El sistema de reservas que tu negocio necesita. Sencillo para ti, conveniente para tus clientes. Sin complicaciones.',
-    'hero.cta.primary': 'Empezar gratis',
+    'hero.cta.primary': 'Empieza gratis',
     'hero.cta.secondary': 'Ver cómo funciona',
     'hero.quote': 'Desde que usamos reservit.co, las llamadas para reservar bajaron un 80%. Mis clientes reservan cuando quieren.',
     'hero.author': 'María González',
@@ -63,7 +63,7 @@ const translations = {
     'pricing.essential.feature2': 'Página de reservas personalizada',
     'pricing.essential.feature3': 'Recordatorios por email',
     'pricing.essential.feature4': 'Soporte por email',
-    'pricing.essential.cta': 'Empezar gratis',
+    'pricing.essential.cta': 'Empieza gratis',
 
     'pricing.pro.name': 'Profesional',
     'pricing.pro.price': '39',
@@ -75,7 +75,7 @@ const translations = {
     'pricing.pro.feature4': 'Integración con Google Calendar',
     'pricing.pro.feature5': 'Dominio personalizado',
     'pricing.pro.feature6': 'Soporte prioritario',
-    'pricing.pro.cta': 'Empezar gratis',
+    'pricing.pro.cta': 'Empieza gratis',
     'pricing.pro.badge': 'Recomendado',
 
     'pricing.note': '14 días gratis. Sin tarjeta de crédito.',
@@ -89,7 +89,7 @@ const translations = {
     'footer.privacy': 'Privacidad',
     'footer.terms': 'Términos',
     'footer.contact': 'Contacto',
-    'footer.copy': '© 2025 reservit.co. Todos los derechos reservados.'
+    'footer.copy': '© ' + new Date().getFullYear() + ' Reservit.co. Todos los derechos reservados.'
   },
 
   en: {
@@ -177,7 +177,7 @@ const translations = {
     'footer.privacy': 'Privacy',
     'footer.terms': 'Terms',
     'footer.contact': 'Contact',
-    'footer.copy': '© 2025 reservit.co. All rights reserved.'
+    'footer.copy': '© ' + new Date().getFullYear() + ' Reservit.co. All rights reserved.'
   }
 };
 
