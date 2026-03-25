@@ -79,7 +79,7 @@ const translations = {
     'pricing.pro.cta': 'Empieza gratis',
     'pricing.pro.badge': 'Recomendado',
 
-    'pricing.note': '14 días gratis. Sin tarjeta de crédito.',
+    'pricing.note': '15 días gratis. Sin tarjeta de crédito.',
 
     // CTA Section
     'cta.title': 'Empieza a recibir reservas hoy',
@@ -168,7 +168,7 @@ const translations = {
     'pricing.pro.cta': 'Start free',
     'pricing.pro.badge': 'Recommended',
 
-    'pricing.note': '14-day free trial. No credit card required.',
+    'pricing.note': '15-day free trial. No credit card required.',
 
     // CTA Section
     'cta.title': 'Start receiving bookings today',
