@@ -30,8 +30,8 @@ const translations = {
     'features.booking.title': 'Reservas 24/7',
     'features.booking.text': 'Tus clientes pueden reservar en cualquier momento, desde cualquier dispositivo. Sin llamadas, sin esperas.',
 
-    'features.reminders.title': 'Recordatorios automáticos',
-    'features.reminders.text': 'Reduce las ausencias hasta un 60% con recordatorios por SMS y email. Tus clientes nunca olvidarán su cita.',
+    'features.notifications.title': 'Notificaciones automáticos',
+    'features.notifications.text': 'Reduce las ausencias hasta un 60% con notificaciones por SMS y email. Tus clientes nunca olvidarán su cita.',
 
     'features.brand.title': 'Tu marca',
     'features.brand.text': 'Personaliza colores, logo y dominio. Tu página de reservas se ve como una extensión natural de tu negocio.',
@@ -61,7 +61,7 @@ const translations = {
     'pricing.essential.description': 'Todo lo básico para empezar a recibir reservas online.',
     'pricing.essential.feature1': 'Reservas ilimitadas',
     'pricing.essential.feature2': 'Página de reservas personalizada',
-    'pricing.essential.feature3': 'Recordatorios por email',
+    'pricing.essential.feature3': 'Notificaciones por email',
     'pricing.essential.feature4': 'Soporte por email',
     'pricing.essential.cta': 'Empieza gratis',
 
@@ -70,11 +70,12 @@ const translations = {
     'pricing.pro.period': '/mes',
     'pricing.pro.description': 'Para negocios que quieren la experiencia completa.',
     'pricing.pro.feature1': 'Todo de Esencial',
-    'pricing.pro.feature2': 'Recordatorios por SMS',
+    'pricing.pro.feature2': 'Notificaciones por SMS',
     'pricing.pro.feature3': 'Múltiples empleados',
     'pricing.pro.feature4': 'Integración con Google Calendar',
     'pricing.pro.feature5': 'Dominio personalizado',
     'pricing.pro.feature6': 'Soporte prioritario',
+    'pricing.pro.feature7': 'Asistente inteligente por WhatsApp',
     'pricing.pro.cta': 'Empieza gratis',
     'pricing.pro.badge': 'Recomendado',
 
@@ -118,8 +119,8 @@ const translations = {
     'features.booking.title': '24/7 Bookings',
     'features.booking.text': 'Your customers can book anytime, from any device. No calls, no waiting.',
 
-    'features.reminders.title': 'Automatic reminders',
-    'features.reminders.text': 'Reduce no-shows by up to 60% with SMS and email reminders. Your customers will never forget their appointment.',
+    'features.notifications.title': 'Automatic notifications',
+    'features.notifications.text': 'Reduce no-shows by up to 60% with SMS and email notifications. Your customers will never forget their appointment.',
 
     'features.brand.title': 'Your brand',
     'features.brand.text': 'Customize colors, logo and domain. Your booking page looks like a natural extension of your business.',
@@ -149,7 +150,7 @@ const translations = {
     'pricing.essential.description': 'Everything basic to start receiving online bookings.',
     'pricing.essential.feature1': 'Unlimited bookings',
     'pricing.essential.feature2': 'Custom booking page',
-    'pricing.essential.feature3': 'Email reminders',
+    'pricing.essential.feature3': 'Email notifications',
     'pricing.essential.feature4': 'Email support',
     'pricing.essential.cta': 'Start free',
 
@@ -158,11 +159,12 @@ const translations = {
     'pricing.pro.period': '/month',
     'pricing.pro.description': 'For businesses that want the complete experience.',
     'pricing.pro.feature1': 'Everything in Essential',
-    'pricing.pro.feature2': 'SMS reminders',
+    'pricing.pro.feature2': 'SMS notifications',
     'pricing.pro.feature3': 'Multiple employees',
     'pricing.pro.feature4': 'Google Calendar integration',
     'pricing.pro.feature5': 'Custom domain',
     'pricing.pro.feature6': 'Priority support',
+    'pricing.pro.feature7': 'Intelligent WhatsApp assistant',
     'pricing.pro.cta': 'Start free',
     'pricing.pro.badge': 'Recommended',
 
