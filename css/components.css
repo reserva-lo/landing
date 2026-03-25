@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Components - reserva.lo
+   Components - reservit.co
    ========================================================================== */
 
 /* ==========================================================================
@@ -129,14 +129,30 @@
 .header__logo {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  gap: 0;
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.header__logo img {
+.header__logo-icon {
   height: 4rem;
   width: auto;
+}
+
+.header__logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-left: -0.75rem;
+}
+
+.header__logo-text--dark {
+  color: #1a1a1a;
+}
+
+.header__logo-text--green {
+  color: var(--color-accent);
 }
 
 /* Desktop navigation */

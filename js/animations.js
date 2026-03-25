@@ -1,5 +1,5 @@
 /**
- * Animations module for reserva.lo
+ * Animations module for reservit.co
  * Handles scroll animations with reduced motion support
  */
 

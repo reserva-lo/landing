@@ -1,5 +1,5 @@
 /**
- * Main entry point for reserva.lo landing page
+ * Main entry point for reservit.co landing page
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,5 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Log initialization
-  console.log('reserva.lo initialized');
+  console.log('reservit.co initialized');
 });

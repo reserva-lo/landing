@@ -1,5 +1,5 @@
 /**
- * Internationalization (i18n) module for reserva.lo
+ * Internationalization (i18n) module for reservit.co
  * Handles language toggle and translations
  */
 
@@ -18,7 +18,7 @@ const translations = {
     'hero.subtitle': 'El sistema de reservas que tu negocio necesita. Sencillo para ti, conveniente para tus clientes. Sin complicaciones.',
     'hero.cta.primary': 'Empezar gratis',
     'hero.cta.secondary': 'Ver cómo funciona',
-    'hero.quote': 'Desde que usamos reserva.lo, las llamadas para reservar bajaron un 80%. Mis clientes reservan cuando quieren.',
+    'hero.quote': 'Desde que usamos reservit.co, las llamadas para reservar bajaron un 80%. Mis clientes reservan cuando quieren.',
     'hero.author': 'María González',
     'hero.authorRole': 'Salón de belleza Luna',
 
@@ -82,14 +82,14 @@ const translations = {
 
     // CTA Section
     'cta.title': 'Empieza a recibir reservas hoy',
-    'cta.subtitle': 'Únete a cientos de negocios que ya simplifican sus reservas con reserva.lo',
+    'cta.subtitle': 'Únete a cientos de negocios que ya simplifican sus reservas con reservit.co',
     'cta.button': 'Crear mi cuenta gratis',
 
     // Footer
     'footer.privacy': 'Privacidad',
     'footer.terms': 'Términos',
     'footer.contact': 'Contacto',
-    'footer.copy': '© 2025 reserva.lo. Todos los derechos reservados.'
+    'footer.copy': '© 2025 reservit.co. Todos los derechos reservados.'
   },
 
   en: {
@@ -106,7 +106,7 @@ const translations = {
     'hero.subtitle': 'The booking system your business needs. Simple for you, convenient for your customers. No complications.',
     'hero.cta.primary': 'Start free',
     'hero.cta.secondary': 'See how it works',
-    'hero.quote': 'Since we started using reserva.lo, booking calls dropped 80%. My clients book whenever they want.',
+    'hero.quote': 'Since we started using reservit.co, booking calls dropped 80%. My clients book whenever they want.',
     'hero.author': 'María González',
     'hero.authorRole': 'Luna Beauty Salon',
 
@@ -170,14 +170,14 @@ const translations = {
 
     // CTA Section
     'cta.title': 'Start receiving bookings today',
-    'cta.subtitle': 'Join hundreds of businesses already simplifying their bookings with reserva.lo',
+    'cta.subtitle': 'Join hundreds of businesses already simplifying their bookings with reservit.co',
     'cta.button': 'Create my free account',
 
     // Footer
     'footer.privacy': 'Privacy',
     'footer.terms': 'Terms',
     'footer.contact': 'Contact',
-    'footer.copy': '© 2025 reserva.lo. All rights reserved.'
+    'footer.copy': '© 2025 reservit.co. All rights reserved.'
   }
 };
 
