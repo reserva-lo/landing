@@ -24,8 +24,8 @@
 
 @media (min-width: 1024px) {
   .hero__content {
-    text-align: left;
-    margin-inline: 0;
+    text-align: center;
+    margin-inline: auto;
     max-width: 680px;
   }
 }
