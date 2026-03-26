@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacto - Reservit.co">
+  <title>Contacto - Reservit.co</title>
+  <link rel="icon" type="image/png" href="images/logo_transparente.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <style>
+    .contact {
+      padding-top: calc(var(--header-height) + var(--space-16));
+      padding-bottom: var(--space-16);
+      min-height: 100vh;
+    }
+    .contact__content {
+      max-width: 600px;
+      margin-inline: auto;
+      text-align: center;
+    }
+    .contact__content h1 {
+      font-family: var(--font-display);
+      font-size: var(--text-4xl);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+    .contact__subtitle {
+      font-size: var(--text-lg);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-10);
+    }
+    .contact__form {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+    }
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+    .form__label {
+      font-size: var(--text-sm);
+      font-weight: var(--font-weight-medium);
+      color: var(--color-text);
+    }
+    .form__input,
+    .form__textarea {
+      width: 100%;
+      padding: var(--space-3) var(--space-4);
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      background-color: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      transition: border-color 0.2s ease;
+      box-sizing: border-box;
+    }
+    .form__input:focus,
+    .form__textarea:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(30, 36, 96, 0.1);
+    }
+    .form__textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    .form__submit {
+      align-self: center;
+      margin-top: var(--space-2);
+    }
+    .contact__email {
+      margin-top: var(--space-8);
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+    .contact__email a {
+      color: var(--color-primary);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="Reservit.co - Inicio">
+        <img src="images/logo_transparente.png" alt="Reservit.co" class="header__logo-icon">
+        <span class="header__logo-text"><span class="header__logo-text--dark">eserveit</span><span class="header__logo-text--green">.co</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="contact">
+    <div class="container">
+      <div class="contact__content">
+
+        <h1>Contacto</h1>
+        <p class="contact__subtitle">Escríbenos y te responderemos lo antes posible.</p>
+
+        <form class="contact__form" id="contact-form">
+          <div class="form__group">
+            <label class="form__label" for="name">Nombre</label>
+            <input class="form__input" type="text" id="name" name="name" required placeholder="Tu nombre">
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email" required placeholder="tu@email.com">
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="message">Mensaje</label>
+            <textarea class="form__textarea" id="message" name="message" required placeholder="¿En qué podemos ayudarte?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg form__submit">Enviar mensaje</button>
+        </form>
+
+        <p class="contact__email">También puedes escribirnos directamente a <a href="mailto:info@reservit.co">info@reservit.co</a></p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <hr class="footer__divider">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo" aria-label="Reservit.co - Inicio">
+          <img src="images/logo_transparente.png" alt="Reservit.co" width="100" height="56">
+        </a>
+        <ul class="footer__links">
+          <li><a href="privacidad.html" class="footer__link">Privacidad</a></li>
+          <li><a href="terminos.html" class="footer__link">Términos</a></li>
+          <li><a href="contacto.html" class="footer__link">Contacto</a></li>
+        </ul>
+        <p class="footer__copy">© <span class="current-year"></span> Reservit.co. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.current-year').textContent = new Date().getFullYear();
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      const subject = encodeURIComponent('Contacto desde Reservit.co - ' + name);
+      const body = encodeURIComponent('Nombre: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      window.location.href = 'mailto:info@reservit.co?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>

@@ -52,8 +52,7 @@ const translations = {
 
     // Pricing
     'pricing.label': 'Precios',
-    'pricing.title': 'Planes simples, sin sorpresas',
-    'pricing.subtitle': 'Elige el plan que mejor se adapte a tu negocio. Cancela cuando quieras.',
+    'pricing.title': 'Plan de precios simple, sin sorpresas',
 
     'pricing.essential.name': 'Esencial',
     'pricing.essential.price': '19',
@@ -101,7 +100,7 @@ const translations = {
     'nav.cta': 'Start free',
 
     // Hero
-    'hero.label': 'Booking for small businesses',
+    'hero.label': 'The booking system for your business.',
     'hero.title': 'Simple bookings.',
     'hero.titleAccent': 'Happy customers.',
     'hero.subtitle': 'The booking system your business needs. Simple for you, convenient for your customers. No complications.',
@@ -141,8 +140,7 @@ const translations = {
 
     // Pricing
     'pricing.label': 'Pricing',
-    'pricing.title': 'Simple plans, no surprises',
-    'pricing.subtitle': 'Choose the plan that best fits your business. Cancel anytime.',
+    'pricing.title': 'Simple pricing, no surprises',
 
     'pricing.essential.name': 'Essential',
     'pricing.essential.price': '19',

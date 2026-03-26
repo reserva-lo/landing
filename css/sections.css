@@ -72,7 +72,7 @@
 
 @media (min-width: 1024px) {
   .hero__subtitle {
-    margin-inline: 0;
+    margin-inline: auto;
   }
 }
 
@@ -93,7 +93,7 @@
 
 @media (min-width: 1024px) {
   .hero__actions {
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
 
@@ -351,20 +351,16 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-6);
-  max-width: 800px;
+  max-width: 420px;
   margin-inline: auto;
 }
 
-@media (min-width: 768px) {
-  .pricing__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-8);
-  }
-}
-
 .pricing__note {
+  display: block;
   text-align: center;
   margin-top: var(--space-8);
+  margin-left: auto;
+  margin-right: auto;
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   width: 100%;
