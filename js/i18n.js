@@ -12,7 +12,7 @@ const translations = {
     'nav.cta': 'Empieza gratis',
 
     // Hero
-    'hero.label': 'Reservas para pequeños negocios',
+    'hero.label': 'El sistema de reservas para tu negocio.',
     'hero.title': 'Reservas simples.',
     'hero.titleAccent': 'Clientes felices.',
     'hero.subtitle': 'El sistema de reservas que tu negocio necesita. Sencillo para ti, conveniente para tus clientes. Sin complicaciones.',
