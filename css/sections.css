@@ -355,6 +355,13 @@
   margin-inline: auto;
 }
 
+@media (min-width: 768px) {
+  .pricing__grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 840px;
+  }
+}
+
 .pricing__note {
   display: block;
   text-align: center;
