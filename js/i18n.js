@@ -33,8 +33,8 @@ const translations = {
     'features.notifications.title': 'Notificaciones automáticos',
     'features.notifications.text': 'Reduce las ausencias hasta un 60% con notificaciones por SMS y email. Tus clientes nunca olvidarán su cita.',
 
-    'features.brand.title': 'Tu marca',
-    'features.brand.text': 'Personaliza colores, logo y dominio. Tu página de reservas se ve como una extensión natural de tu negocio.',
+    'features.whatsapp.title': 'Reservas por WhatsApp',
+    'features.whatsapp.text': 'Tus clientes reservan directamente por WhatsApp. Un asistente IA confirma citas, gestiona cambios y responde en varios idiomas, 24/7.',
 
     // How it works
     'howItWorks.label': 'Cómo funciona',
@@ -121,8 +121,8 @@ const translations = {
     'features.notifications.title': 'Automatic notifications',
     'features.notifications.text': 'Reduce no-shows by up to 60% with SMS and email notifications. Your customers will never forget their appointment.',
 
-    'features.brand.title': 'Your brand',
-    'features.brand.text': 'Customize colors, logo and domain. Your booking page looks like a natural extension of your business.',
+    'features.whatsapp.title': 'WhatsApp bookings',
+    'features.whatsapp.text': 'Your clients book directly on WhatsApp. An AI assistant confirms appointments, manages changes, and replies in multiple languages, 24/7.',
 
     // How it works
     'howItWorks.label': 'How it works',
