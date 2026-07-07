@@ -362,6 +362,13 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .pricing__grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1120px;
+  }
+}
+
 .pricing__note {
   display: block;
   text-align: center;

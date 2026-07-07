@@ -12,10 +12,10 @@ const translations = {
     'nav.cta': 'Empieza gratis',
 
     // Hero
-    'hero.label': 'El sistema de reservas para tu negocio.',
-    'hero.title': 'Reservas simples.',
-    'hero.titleAccent': 'Clientes felices.',
-    'hero.subtitle': 'El sistema de reservas que tu negocio necesita. Sencillo para ti, conveniente para tus clientes. Sin complicaciones.',
+    'hero.label': 'Reservas simples. Clientes felices.',
+    'hero.title': 'Gestiona tus clientes',
+    'hero.titleAccent': 'sin complicarte.',
+    'hero.subtitle': 'Coge las reservas, responde a tus clientes y se acuerda de cada uno — por los canales que ya usas. Y cuando quieras cambiar algo, se lo dices y ya está.',
     'hero.cta.primary': 'Empieza gratis',
     'hero.cta.secondary': 'Ver cómo funciona',
     'hero.quote': 'Desde que usamos reservit.co, las llamadas para reservar bajaron un 80%. Mis clientes reservan cuando quieren.',
@@ -24,17 +24,26 @@ const translations = {
 
     // Features
     'features.label': 'Funciones',
-    'features.title': 'Todo lo que necesitas para gestionar reservas',
+    'features.title': 'Todo lo que necesitas para llevar tu negocio, sin complicarte.',
     'features.subtitle': 'Herramientas diseñadas para pequeños negocios que quieren crecer sin complicarse.',
 
-    'features.booking.title': 'Reservas 24/7',
-    'features.booking.text': 'Tus clientes pueden reservar en cualquier momento, desde cualquier dispositivo. Sin llamadas, sin esperas.',
+    'features.booking.title': 'Reservas a cualquier hora',
+    'features.booking.text': 'Reserva desde el móvil, sin llamadas ni esperas.',
 
-    'features.notifications.title': 'Notificaciones automáticos',
-    'features.notifications.text': 'Reduce las ausencias hasta un 60% con notificaciones por SMS y email. Tus clientes nunca olvidarán su cita.',
+    'features.remembers.title': 'Se acuerda de tus clientes por ti',
+    'features.remembers.text': 'Cuando alguien llama o escribe, ya sabes quién es, cuándo vino y qué pidió.',
 
-    'features.whatsapp.title': 'Reservas por WhatsApp',
-    'features.whatsapp.text': 'Tus clientes reservan directamente por WhatsApp. Un asistente IA confirma citas, gestiona cambios y responde en varios idiomas, 24/7.',
+    'features.together.title': 'Todo en la misma conversación',
+    'features.together.text': 'El WhatsApp y el teléfono de tu negocio, en un solo sitio. Se acabó buscar en tres apps.',
+
+    'features.noleak.title': 'No se te escapa nadie',
+    'features.noleak.text': 'El que preguntó y no volvió, la reserva a medias: el sistema te avisa para recuperarlo.',
+
+    'features.reminders.title': 'Recordatorios automáticos',
+    'features.reminders.text': 'Avisos por WhatsApp o email; menos ausencias.',
+
+    'features.mobile.title': 'Míralo todo desde el móvil',
+    'features.mobile.text': 'Quién viene hoy, huecos libres, la agenda del día: de un vistazo, estés donde estés.',
 
     // How it works
     'howItWorks.label': 'Cómo funciona',
@@ -47,8 +56,8 @@ const translations = {
     'howItWorks.step2.title': 'Comparte',
     'howItWorks.step2.text': 'Comparte tu link de reservas en redes, WhatsApp o tu web. Donde tú quieras.',
 
-    'howItWorks.step3.title': 'Gestiona',
-    'howItWorks.step3.text': 'Recibe reservas instantáneamente. Gestiona todo desde un panel simple.',
+    'howItWorks.step3.title': 'Lleva el día a día sin esfuerzo',
+    'howItWorks.step3.text': 'Recibe reservas al instante, mira quién viene, y cambia lo que quieras diciéndoselo o desde el panel de siempre.',
 
     // Pricing
     'pricing.label': 'Precios',
@@ -78,6 +87,18 @@ const translations = {
     'pricing.pro.cta': 'Empieza gratis',
     'pricing.pro.badge': 'Recomendado',
 
+    'pricing.premium.name': 'Premium',
+    'pricing.premium.price': '99',
+    'pricing.premium.period': '/mes',
+    'pricing.premium.description': 'Que nadie se quede sin respuesta, y tú lleva el negocio hablándole.',
+    'pricing.premium.feature1': 'Todo lo de Profesional, con reservas por widget ilimitadas',
+    'pricing.premium.feature2': 'El teléfono se coge solo: un agente contesta, reconoce al cliente y te deja todo anotado. Varios idiomas. (100 reservas por voz/mes incluidas.)',
+    'pricing.premium.feature3': 'Gestiona hablándole: dile lo que quieres ("abre los sábados hasta las 2") y lo hace, confirmando antes de aplicar.',
+    'pricing.premium.feature4': 'Respuesta automática por WhatsApp e Instagram',
+    'pricing.premium.feature5': 'Recuperación automática de ausencias y seguimientos',
+    'pricing.premium.feature6': 'Soporte prioritario',
+    'pricing.premium.cta': 'Empieza gratis',
+
     'pricing.note': '15 días gratis. Sin tarjeta de crédito.',
 
     // CTA Section
@@ -89,7 +110,7 @@ const translations = {
     'footer.privacy': 'Privacidad',
     'footer.terms': 'Términos',
     'footer.contact': 'Contacto',
-    'footer.copy': '© ' + new Date().getFullYear() + ' Reservit.co. Todos los derechos reservados.'
+    'footer.rights': 'Todos los derechos reservados.'
   },
 
   en: {
@@ -100,10 +121,10 @@ const translations = {
     'nav.cta': 'Start free',
 
     // Hero
-    'hero.label': 'The booking system for your business.',
-    'hero.title': 'Simple bookings.',
-    'hero.titleAccent': 'Happy customers.',
-    'hero.subtitle': 'The booking system your business needs. Simple for you, convenient for your customers. No complications.',
+    'hero.label': 'Simple bookings. Happy customers.',
+    'hero.title': 'Manage your customers',
+    'hero.titleAccent': 'without the hassle.',
+    'hero.subtitle': 'Takes bookings, answers your customers and remembers each one — through the channels you already use. And when you want to change something, you just say it.',
     'hero.cta.primary': 'Start free',
     'hero.cta.secondary': 'See how it works',
     'hero.quote': 'Since we started using reservit.co, booking calls dropped 80%. My clients book whenever they want.',
@@ -112,17 +133,26 @@ const translations = {
 
     // Features
     'features.label': 'Features',
-    'features.title': 'Everything you need to manage bookings',
+    'features.title': 'Everything you need to run your business, without the hassle.',
     'features.subtitle': 'Tools designed for small businesses that want to grow without complications.',
 
-    'features.booking.title': '24/7 Bookings',
-    'features.booking.text': 'Your customers can book anytime, from any device. No calls, no waiting.',
+    'features.booking.title': 'Bookings any time',
+    'features.booking.text': 'Book from the phone, no calls, no waiting.',
 
-    'features.notifications.title': 'Automatic notifications',
-    'features.notifications.text': 'Reduce no-shows by up to 60% with SMS and email notifications. Your customers will never forget their appointment.',
+    'features.remembers.title': 'It remembers your customers for you',
+    'features.remembers.text': 'When someone calls or writes, you already know who they are, when they came and what they ordered.',
 
-    'features.whatsapp.title': 'WhatsApp bookings',
-    'features.whatsapp.text': 'Your clients book directly on WhatsApp. An AI assistant confirms appointments, manages changes, and replies in multiple languages, 24/7.',
+    'features.together.title': 'Everything in one conversation',
+    'features.together.text': "Your business's WhatsApp and phone in one place. No more digging through three apps.",
+
+    'features.noleak.title': 'Nobody slips through',
+    'features.noleak.text': 'The one who asked and never returned, the half-finished booking: the system nudges you to win them back.',
+
+    'features.reminders.title': 'Automatic reminders',
+    'features.reminders.text': 'Alerts by WhatsApp or email; fewer no-shows.',
+
+    'features.mobile.title': 'See it all from your phone',
+    'features.mobile.text': "Who's coming today, free slots, the day's schedule: at a glance, wherever you are.",
 
     // How it works
     'howItWorks.label': 'How it works',
@@ -135,8 +165,8 @@ const translations = {
     'howItWorks.step2.title': 'Share',
     'howItWorks.step2.text': 'Share your booking link on social media, WhatsApp or your website. Anywhere you want.',
 
-    'howItWorks.step3.title': 'Manage',
-    'howItWorks.step3.text': 'Receive bookings instantly. Manage everything from a simple dashboard.',
+    'howItWorks.step3.title': 'Run the day-to-day effortlessly',
+    'howItWorks.step3.text': "Get bookings instantly, see who's coming, and change whatever you want by telling it — or from the usual dashboard.",
 
     // Pricing
     'pricing.label': 'Pricing',
@@ -166,6 +196,18 @@ const translations = {
     'pricing.pro.cta': 'Start free',
     'pricing.pro.badge': 'Recommended',
 
+    'pricing.premium.name': 'Premium',
+    'pricing.premium.price': '99',
+    'pricing.premium.period': '/mo',
+    'pricing.premium.description': "So no one's left unanswered — and you run the business by talking to it.",
+    'pricing.premium.feature1': 'Everything in Professional, with unlimited widget bookings',
+    'pricing.premium.feature2': 'The phone answers itself: an agent picks up, recognises the customer and logs everything. Multiple languages. (100 voice bookings/mo included.)',
+    'pricing.premium.feature3': 'Manage it by talking to it: say what you want ("open Saturdays until 2") and it does it, confirming before applying.',
+    'pricing.premium.feature4': 'Automatic replies on WhatsApp and Instagram',
+    'pricing.premium.feature5': 'Automatic no-show recovery and follow-ups',
+    'pricing.premium.feature6': 'Priority support',
+    'pricing.premium.cta': 'Start free',
+
     'pricing.note': '15-day free trial. No credit card required.',
 
     // CTA Section
@@ -177,7 +219,7 @@ const translations = {
     'footer.privacy': 'Privacy',
     'footer.terms': 'Terms',
     'footer.contact': 'Contact',
-    'footer.copy': '© ' + new Date().getFullYear() + ' Reservit.co. All rights reserved.'
+    'footer.rights': 'All rights reserved.'
   }
 };
 
